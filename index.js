@@ -23,7 +23,7 @@ const iceRules = {
 };
 
 convert("http://concentrationcamps.us/cbp.html", "Customs and Border Patrol", "./docs/cbp.kml", cbpRules, "#icon-1899-A52714-nodesc");
-//convert("http://concentrationcamps.us/ice.html", "ICE Detention Facilities", "./docs/idf.kml", iceRules, "#icon-1899-0288D1-nodesc"); 
+convert("http://concentrationcamps.us/ice.html", "ICE Detention Facilities", "./docs/idf.kml", iceRules, "#icon-1899-0288D1-nodesc"); 
 
 async function convert(url, title, path, rules, icon) {
   
