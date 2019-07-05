@@ -1,1 +1,1 @@
-cc2kml
+cc2kmz
