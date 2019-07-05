@@ -8,6 +8,10 @@ export geocodKey="1234567890abc"
 
 Then just run it and it will parse the HTML from 2600, Geocode all the addresses, and then update the two kml files in the docs folder.
 
+````bash
+node index
+````
+
 Note that the raw html files from 2600 are total garbage. I fully expect them to change one day and this script will stop working. If that happens, just open an issue (or better yet, a pull request).
 
 Those KML files can be uploaded directly into your own map at Google, or used however you want.
